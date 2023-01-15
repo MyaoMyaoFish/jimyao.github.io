@@ -1,3 +1,8 @@
+/* koto:
+ * i dont really know where this script from is... maybe http://xfwl.club/ ?
+ * but it is empty now.
+ */
+
 class Circle {
     constructor({ origin, speed, color, angle, context }) {
         this.origin = origin
@@ -68,7 +73,7 @@ class Boom {
             }
             circle.move()
         })
-        if (this.circles.length == 0) {
+        if (this.circles.length === 0) {
             this.stop = true
         }
     }
@@ -130,7 +135,7 @@ class CursorSpecialEffects {
 
     run() {
         this.running = true
-        if (this.booms.length == 0) {
+        if (this.booms.length === 0) {
             return this.running = false
         }
 
@@ -153,6 +158,7 @@ class CursorSpecialEffects {
 const cursorSpecialEffects = new CursorSpecialEffects()
 cursorSpecialEffects.init()
 
-console.group("System");console.log("Name: 嘉何");
-console.log("http://www.xfwl.club/");
+console.group("System");
+console.log("Name: 嘉何");
+console.log("https://jiahe005.github.io/");
 console.groupEnd();
