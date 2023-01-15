@@ -159,6 +159,6 @@ const cursorSpecialEffects = new CursorSpecialEffects()
 cursorSpecialEffects.init()
 
 console.group("System");
-console.log("Name: 嘉何");
-console.log("https://jiahe005.github.io/");
+console.log("Name: 霁淼");
+console.log("https://b23.tv/BqrfJoc");
 console.groupEnd();
