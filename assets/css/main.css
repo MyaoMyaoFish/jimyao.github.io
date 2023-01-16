@@ -183,6 +183,10 @@
 }
 
 .xf_website {
+    display: none;
+}
+
+.xf_website {
     margin-top: -5px;
     text-align: center;
     color: #1a1a1a;
