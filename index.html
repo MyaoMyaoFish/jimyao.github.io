@@ -12,26 +12,13 @@
     <link rel="shortcut" href="./assets/images/top.png">
     <link rel="icon" href="./assets/images/top.png">
     <link rel="stylesheet" href="./assets/css/main.css">
-
     <script src="./assets/js/time.js"></script>
-
+    <script src="./assets/js/jQuery3.5.1.js"></script>
     <script type="text/javascript">
-        /* koto:
-         * DOMContentLoaded event is the same as $(document).ready i think
-         */
-        addEventListener("DOMContentLoaded", function () {
-            document.querySelector(".xf_slide").onclick = function () {
-                document.querySelector(".xf_website").style.display =
-                    document.querySelector(".xf_website").style.display === "block"
-                        ? "none"
-                        : "block";
-            }
-            document.querySelector(".xf_slide").onclick = function () {
-                document.querySelector(".xf_website").style.display =
-                    document.querySelector(".xf_website").style.display === "block"
-                        ? "none"
-                        : "block";
-            }
+        $(document).ready(function () {
+            $(".xf_slide").click(function () {
+                $(".xf_website").slideToggle("slow");
+            })
         })
     </script>
 
@@ -83,7 +70,7 @@
         </div>
         <!-- 滑动效果 -->
         <p class="xf_slide">&#xeb6d;</p>
-        <div class="xf_website" style="display: none;">
+        <div class="xf_website">
             <a href="https://twitter.com/MyaoMyaoFish" target="_blank" rel="noopener noreferrer">Twitter</a>
             <a href="https://github.com/MyaoMyaoFish" target="_blank" rel="noopener noreferrer">gayhub</a>
         </div>
